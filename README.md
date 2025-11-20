@@ -12,13 +12,13 @@ The [`aztec3-circuits`](https://github.com/AztecProtocol/aztec3-circuits) reposi
 
 * [Circuits project board](https://github.com/orgs/AztecProtocol/projects/22/views/2)
 * [[DO NOT EDIT] Diagram with pseudocode for circuits](https://miro.com/app/board/uXjVPlafJWM=/)
-    * This diagram's contents are likely more up-to-date than code and than the other links below
+    * This diagram's contents are likely more up-to-date than the code and the other links below.
 * Kernel circuits
     * [Slides - Dive into Kernel Circuits](https://drive.google.com/file/d/1BaspihHDUgny6MHAKMtTkWKvfah7PYtv/view?usp=share_link)
         * [Recording of presentation](https://drive.google.com/file/d/1Uh-vLdc1_rsMUHL_c4HZ93jrjpuDsqD3/view?usp=share_link)
     * [Kernel circuit mentioned in M1.1 Contract Deployment document](https://hackmd.io/ouVCnacHQRq2o1oRc5ksNA#Kernel-Circuit-functionality)
     * [More info on the kernel circuit for Contract Creation](https://hackmd.io/@aztec-network/rkyRaXqPj#Kernel-Circuit-Logic)
-    * _Note:_ [Base rollup circuits in Aztec Connect](https://github.com/AztecProtocol/aztec-connect-cpp/tree/defi-bridge-project/src/rollup/proofs/rollup) are relevant to kernel circuits
+    * _Note:_ [Base rollup circuits in Aztec Connect](https://github.com/AztecProtocol/aztec-connect-cpp/tree/defi-bridge-project/src/rollup/proofs/rollup) are relevant to kernel circuits.
 * Rollup circuits
     * [Rollup circuit mentioned in M1.1 Contract Deployment document](https://hackmd.io/ouVCnacHQRq2o1oRc5ksNA#Rollup-Circuit-functionality)
     * [More info on the rollup circuit for Contract Creation](https://hackmd.io/@aztec-network/rkyRaXqPj#Rollup-Circuit-Logic)
@@ -30,7 +30,7 @@ The [`aztec3-circuits`](https://github.com/AztecProtocol/aztec3-circuits) reposi
 ### Getting Started with C++
 
 Clone the repo and build the C++:
-```
+```bash
 git clone git@github.com:AztecProtocol/aztec3-circuits.git
 cd aztec3-circuits
 git submodule update --init --recursive
